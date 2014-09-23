@@ -23,14 +23,14 @@
 
 (define (pieces)
   (append 
-  (list 'R 'Kn 'B 'K 'Q 'B 'Kn 'R)
+  (list 'R 'N 'B 'K 'Q 'B 'N 'R)
   (list 'p 'p 'p 'p 'p 'p 'p 'p)
   (make-list 8 null)
   (make-list 8 null)
   (make-list 8 null)
   (make-list 8 null)
   (list 'p 'p 'p 'p 'p 'p 'p 'p)
-  (list 'R 'Kn 'B 'K 'Q 'B 'Kn 'R)))
+  (list 'R 'N 'B 'K 'Q 'B 'N 'R)))
 
 (define (make-board)
   (map (lambda (sq p) (square sq p)) (empty-board) (pieces))) 
