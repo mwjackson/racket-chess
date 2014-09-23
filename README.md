@@ -7,4 +7,4 @@ using racket 6.1
 
 to play:
 
-(game-loop (make-board))
+(start)
